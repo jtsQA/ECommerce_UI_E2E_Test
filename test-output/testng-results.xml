@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SauceDemoSuite" duration-ms="194262" started-at="2023-03-08T11:14:40Z" finished-at="2023-03-08T11:17:54Z">
+    <groups>
+    </groups>
+    <test name="SauceDemoTest" duration-ms="194262" started-at="2023-03-08T11:14:40Z" finished-at="2023-03-08T11:17:54Z">
+      <class name="com.saucedemo.testcases.TC0008_LoginTest_LockedUser">
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0008_LoginTest_LockedUser@4f67eb2a]" name="initialize" is-config="true" duration-ms="7791" started-at="2023-03-08T11:16:37Z" finished-at="2023-03-08T11:16:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0008_LoginTest_LockedUser@4f67eb2a]" name="run" duration-ms="798" started-at="2023-03-08T11:16:44Z" data-provider="getTestData" finished-at="2023-03-08T11:16:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Epic sadface: Sorry, this user has been locked out.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:com.saucedemo.testcases.TC0008_LoginTest_LockedUser@4f67eb2a]" name="finish" is-config="true" duration-ms="2304" started-at="2023-03-08T11:16:45Z" finished-at="2023-03-08T11:16:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.saucedemo.testcases.TC0008_LoginTest_LockedUser -->
+      <class name="com.saucedemo.testcases.TC0004_LoginTest_MaskedPassword">
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0004_LoginTest_MaskedPassword@41c2284a]" name="initialize" is-config="true" duration-ms="7513" started-at="2023-03-08T11:15:57Z" finished-at="2023-03-08T11:16:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="run(java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0004_LoginTest_MaskedPassword@41c2284a]" name="run" duration-ms="294" started-at="2023-03-08T11:16:05Z" data-provider="getTestData" finished-at="2023-03-08T11:16:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:com.saucedemo.testcases.TC0004_LoginTest_MaskedPassword@41c2284a]" name="finish" is-config="true" duration-ms="1700" started-at="2023-03-08T11:16:05Z" finished-at="2023-03-08T11:16:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.saucedemo.testcases.TC0004_LoginTest_MaskedPassword -->
+      <class name="com.saucedemo.testcases.TC0101_AddAndRemoveSingleProductFromCart">
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0101_AddAndRemoveSingleProductFromCart@78ffe6dc]" name="initialize" is-config="true" duration-ms="6948" started-at="2023-03-08T11:17:10Z" finished-at="2023-03-08T11:17:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0101_AddAndRemoveSingleProductFromCart@78ffe6dc]" name="run" duration-ms="1065" started-at="2023-03-08T11:17:17Z" data-provider="getTestData" finished-at="2023-03-08T11:17:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Fleece Jacket]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:com.saucedemo.testcases.TC0101_AddAndRemoveSingleProductFromCart@78ffe6dc]" name="finish" is-config="true" duration-ms="2305" started-at="2023-03-08T11:17:18Z" finished-at="2023-03-08T11:17:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.saucedemo.testcases.TC0101_AddAndRemoveSingleProductFromCart -->
+      <class name="com.saucedemo.testcases.TC0005_LoginTest_UnmaskedUsername">
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0005_LoginTest_UnmaskedUsername@53aad5d5]" name="initialize" is-config="true" duration-ms="6864" started-at="2023-03-08T11:16:07Z" finished-at="2023-03-08T11:16:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0005_LoginTest_UnmaskedUsername@53aad5d5]" name="run" duration-ms="297" started-at="2023-03-08T11:16:14Z" data-provider="getTestData" finished-at="2023-03-08T11:16:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[text]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:com.saucedemo.testcases.TC0005_LoginTest_UnmaskedUsername@53aad5d5]" name="finish" is-config="true" duration-ms="1905" started-at="2023-03-08T11:16:14Z" finished-at="2023-03-08T11:16:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.saucedemo.testcases.TC0005_LoginTest_UnmaskedUsername -->
+      <class name="com.saucedemo.testcases.TC0002_LoginTest_InvalidPassword">
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0002_LoginTest_InvalidPassword@1329eff]" name="initialize" is-config="true" duration-ms="11545" started-at="2023-03-08T11:15:36Z" finished-at="2023-03-08T11:15:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0002_LoginTest_InvalidPassword@1329eff]" name="run" duration-ms="485" started-at="2023-03-08T11:15:48Z" data-provider="getTestData" finished-at="2023-03-08T11:15:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0002_LoginTest_InvalidPassword@1329eff]" name="run" duration-ms="319" started-at="2023-03-08T11:15:48Z" data-provider="getTestData" finished-at="2023-03-08T11:15:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[unknown]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:com.saucedemo.testcases.TC0002_LoginTest_InvalidPassword@1329eff]" name="finish" is-config="true" duration-ms="1390" started-at="2023-03-08T11:15:49Z" finished-at="2023-03-08T11:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.saucedemo.testcases.TC0002_LoginTest_InvalidPassword -->
+      <class name="com.saucedemo.testcases.TC0501_OrderCheckout">
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0501_OrderCheckout@76f2bbc1]" name="initialize" is-config="true" duration-ms="7184" started-at="2023-03-08T11:17:31Z" finished-at="2023-03-08T11:17:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0501_OrderCheckout@76f2bbc1]" name="run" duration-ms="4471" started-at="2023-03-08T11:17:38Z" data-provider="getTestData" finished-at="2023-03-08T11:17:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bolt T-Shirt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Denis]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Levi]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1000241.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0501_OrderCheckout@76f2bbc1]" name="run" duration-ms="3336" started-at="2023-03-08T11:17:43Z" data-provider="getTestData" finished-at="2023-03-08T11:17:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bike Light]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Brown]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Cage]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1000234.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0501_OrderCheckout@76f2bbc1]" name="run" duration-ms="3299" started-at="2023-03-08T11:17:46Z" data-provider="getTestData" finished-at="2023-03-08T11:17:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Onesie]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Steve]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nicolas]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3400017.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0501_OrderCheckout@76f2bbc1]" name="run" duration-ms="3188" started-at="2023-03-08T11:17:49Z" data-provider="getTestData" finished-at="2023-03-08T11:17:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Backpack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aina]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Freddy]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3403555.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:com.saucedemo.testcases.TC0501_OrderCheckout@76f2bbc1]" name="finish" is-config="true" duration-ms="1864" started-at="2023-03-08T11:17:52Z" finished-at="2023-03-08T11:17:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.saucedemo.testcases.TC0501_OrderCheckout -->
+      <class name="com.saucedemo.testcases.TC0006_LoginTest_WithoutPassword">
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0006_LoginTest_WithoutPassword@46fa7c39]" name="initialize" is-config="true" duration-ms="6992" started-at="2023-03-08T11:16:16Z" finished-at="2023-03-08T11:16:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0006_LoginTest_WithoutPassword@46fa7c39]" name="run" duration-ms="419" started-at="2023-03-08T11:16:23Z" data-provider="getTestData" finished-at="2023-03-08T11:16:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Epic sadface: Password is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:com.saucedemo.testcases.TC0006_LoginTest_WithoutPassword@46fa7c39]" name="finish" is-config="true" duration-ms="1655" started-at="2023-03-08T11:16:23Z" finished-at="2023-03-08T11:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.saucedemo.testcases.TC0006_LoginTest_WithoutPassword -->
+      <class name="com.saucedemo.testcases.TC0009_LoginTest_UsernameInPlaceholder">
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0009_LoginTest_UsernameInPlaceholder@4a668b6e]" name="initialize" is-config="true" duration-ms="9098" started-at="2023-03-08T11:16:47Z" finished-at="2023-03-08T11:16:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="run(java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0009_LoginTest_UsernameInPlaceholder@4a668b6e]" name="run" duration-ms="170" started-at="2023-03-08T11:16:57Z" data-provider="getTestData" finished-at="2023-03-08T11:16:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:com.saucedemo.testcases.TC0009_LoginTest_UsernameInPlaceholder@4a668b6e]" name="finish" is-config="true" duration-ms="2113" started-at="2023-03-08T11:16:57Z" finished-at="2023-03-08T11:16:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.saucedemo.testcases.TC0009_LoginTest_UsernameInPlaceholder -->
+      <class name="com.saucedemo.testcases.TC0010_LoginTest_PasswordInPlaceholder">
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0010_LoginTest_PasswordInPlaceholder@5f683daf]" name="initialize" is-config="true" duration-ms="8968" started-at="2023-03-08T11:16:59Z" finished-at="2023-03-08T11:17:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="run(java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0010_LoginTest_PasswordInPlaceholder@5f683daf]" name="run" duration-ms="185" started-at="2023-03-08T11:17:08Z" data-provider="getTestData" finished-at="2023-03-08T11:17:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:com.saucedemo.testcases.TC0010_LoginTest_PasswordInPlaceholder@5f683daf]" name="finish" is-config="true" duration-ms="1829" started-at="2023-03-08T11:17:08Z" finished-at="2023-03-08T11:17:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.saucedemo.testcases.TC0010_LoginTest_PasswordInPlaceholder -->
+      <class name="com.saucedemo.testcases.TC0001_LoginTest_ValidCredential">
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0001_LoginTest_ValidCredential@c03cf28]" name="initialize" is-config="true" duration-ms="44201" started-at="2023-03-08T11:14:40Z" finished-at="2023-03-08T11:15:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="run(java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0001_LoginTest_ValidCredential@c03cf28]" name="run" duration-ms="1563" started-at="2023-03-08T11:15:26Z" data-provider="getTestData" finished-at="2023-03-08T11:15:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="run(java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0001_LoginTest_ValidCredential@c03cf28]" name="run" duration-ms="1180" started-at="2023-03-08T11:15:27Z" data-provider="getTestData" finished-at="2023-03-08T11:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="run(java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0001_LoginTest_ValidCredential@c03cf28]" name="run" duration-ms="6279" started-at="2023-03-08T11:15:28Z" data-provider="getTestData" finished-at="2023-03-08T11:15:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:com.saucedemo.testcases.TC0001_LoginTest_ValidCredential@c03cf28]" name="finish" is-config="true" duration-ms="1755" started-at="2023-03-08T11:15:35Z" finished-at="2023-03-08T11:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.saucedemo.testcases.TC0001_LoginTest_ValidCredential -->
+      <class name="com.saucedemo.testcases.TC0102_AddAndRemoveMultipleProductsFromCart">
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0102_AddAndRemoveMultipleProductsFromCart@8317c52]" name="initialize" is-config="true" duration-ms="6858" started-at="2023-03-08T11:17:20Z" finished-at="2023-03-08T11:17:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0102_AddAndRemoveMultipleProductsFromCart@8317c52]" name="run" duration-ms="1728" started-at="2023-03-08T11:17:27Z" data-provider="getTestData" finished-at="2023-03-08T11:17:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bolt T-Shirt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bike Light]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:com.saucedemo.testcases.TC0102_AddAndRemoveMultipleProductsFromCart@8317c52]" name="finish" is-config="true" duration-ms="2129" started-at="2023-03-08T11:17:29Z" finished-at="2023-03-08T11:17:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.saucedemo.testcases.TC0102_AddAndRemoveMultipleProductsFromCart -->
+      <class name="com.saucedemo.testcases.TC0007_LoginTest_WithoutUsername">
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0007_LoginTest_WithoutUsername@1fb700ee]" name="initialize" is-config="true" duration-ms="8746" started-at="2023-03-08T11:16:25Z" finished-at="2023-03-08T11:16:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0007_LoginTest_WithoutUsername@1fb700ee]" name="run" duration-ms="588" started-at="2023-03-08T11:16:34Z" data-provider="getTestData" finished-at="2023-03-08T11:16:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Epic sadface: Username is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:com.saucedemo.testcases.TC0007_LoginTest_WithoutUsername@1fb700ee]" name="finish" is-config="true" duration-ms="2055" started-at="2023-03-08T11:16:34Z" finished-at="2023-03-08T11:16:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.saucedemo.testcases.TC0007_LoginTest_WithoutUsername -->
+      <class name="com.saucedemo.testcases.TC0003_LoginTest_InvalidUsername">
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0003_LoginTest_InvalidUsername@6497b078]" name="initialize" is-config="true" duration-ms="4820" started-at="2023-03-08T11:15:50Z" finished-at="2023-03-08T11:15:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0003_LoginTest_InvalidUsername@6497b078]" name="run" duration-ms="488" started-at="2023-03-08T11:15:55Z" data-provider="getTestData" finished-at="2023-03-08T11:15:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jsddowm]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC0003_LoginTest_InvalidUsername@6497b078]" name="run" duration-ms="402" started-at="2023-03-08T11:15:55Z" data-provider="getTestData" finished-at="2023-03-08T11:15:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[OR 1=1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:com.saucedemo.testcases.TC0003_LoginTest_InvalidUsername@6497b078]" name="finish" is-config="true" duration-ms="1659" started-at="2023-03-08T11:15:56Z" finished-at="2023-03-08T11:15:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.saucedemo.testcases.TC0003_LoginTest_InvalidUsername -->
+    </test> <!-- SauceDemoTest -->
+  </suite> <!-- SauceDemoSuite -->
+</testng-results>

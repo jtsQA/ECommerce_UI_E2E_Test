@@ -1,0 +1,179 @@
+<html>
+<head>
+<title>TestNG:  SauceDemoTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SauceDemoTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>20/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 08 16:44:40 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>194 seconds (194262 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.saucedemo.testcases.TC0001_LoginTest_ValidCredential.run()'><b>run</b><br>Test class: com.saucedemo.testcases.TC0001_LoginTest_ValidCredential<br>Parameters: user1</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.testcases.TC0001_LoginTest_ValidCredential@c03cf28</td></tr>
+<tr>
+<td title='com.saucedemo.testcases.TC0001_LoginTest_ValidCredential.run()'><b>run</b><br>Test class: com.saucedemo.testcases.TC0001_LoginTest_ValidCredential<br>Parameters: user3</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.testcases.TC0001_LoginTest_ValidCredential@c03cf28</td></tr>
+<tr>
+<td title='com.saucedemo.testcases.TC0001_LoginTest_ValidCredential.run()'><b>run</b><br>Test class: com.saucedemo.testcases.TC0001_LoginTest_ValidCredential<br>Parameters: user4</td>
+<td></td>
+<td>6</td>
+<td>com.saucedemo.testcases.TC0001_LoginTest_ValidCredential@c03cf28</td></tr>
+<tr>
+<td title='com.saucedemo.testcases.TC0002_LoginTest_InvalidPassword.run()'><b>run</b><br>Test class: com.saucedemo.testcases.TC0002_LoginTest_InvalidPassword<br>Parameters: user, Epic sadface: Username and password do not match any user in this service</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.testcases.TC0002_LoginTest_InvalidPassword@1329eff</td></tr>
+<tr>
+<td title='com.saucedemo.testcases.TC0002_LoginTest_InvalidPassword.run()'><b>run</b><br>Test class: com.saucedemo.testcases.TC0002_LoginTest_InvalidPassword<br>Parameters: unknown, Epic sadface: Username and password do not match any user in this service</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.testcases.TC0002_LoginTest_InvalidPassword@1329eff</td></tr>
+<tr>
+<td title='com.saucedemo.testcases.TC0003_LoginTest_InvalidUsername.run()'><b>run</b><br>Test class: com.saucedemo.testcases.TC0003_LoginTest_InvalidUsername<br>Parameters: user1, jsddowm, Epic sadface: Username and password do not match any user in this service</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.testcases.TC0003_LoginTest_InvalidUsername@6497b078</td></tr>
+<tr>
+<td title='com.saucedemo.testcases.TC0003_LoginTest_InvalidUsername.run()'><b>run</b><br>Test class: com.saucedemo.testcases.TC0003_LoginTest_InvalidUsername<br>Parameters: user1, OR 1=1, Epic sadface: Username and password do not match any user in this service</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.testcases.TC0003_LoginTest_InvalidUsername@6497b078</td></tr>
+<tr>
+<td title='com.saucedemo.testcases.TC0004_LoginTest_MaskedPassword.run()'><b>run</b><br>Test class: com.saucedemo.testcases.TC0004_LoginTest_MaskedPassword<br>Parameters: password</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.testcases.TC0004_LoginTest_MaskedPassword@41c2284a</td></tr>
+<tr>
+<td title='com.saucedemo.testcases.TC0005_LoginTest_UnmaskedUsername.run()'><b>run</b><br>Test class: com.saucedemo.testcases.TC0005_LoginTest_UnmaskedUsername<br>Parameters: user1, text</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.testcases.TC0005_LoginTest_UnmaskedUsername@53aad5d5</td></tr>
+<tr>
+<td title='com.saucedemo.testcases.TC0006_LoginTest_WithoutPassword.run()'><b>run</b><br>Test class: com.saucedemo.testcases.TC0006_LoginTest_WithoutPassword<br>Parameters: user1, Epic sadface: Password is required</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.testcases.TC0006_LoginTest_WithoutPassword@46fa7c39</td></tr>
+<tr>
+<td title='com.saucedemo.testcases.TC0007_LoginTest_WithoutUsername.run()'><b>run</b><br>Test class: com.saucedemo.testcases.TC0007_LoginTest_WithoutUsername<br>Parameters: , Epic sadface: Username is required</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.testcases.TC0007_LoginTest_WithoutUsername@1fb700ee</td></tr>
+<tr>
+<td title='com.saucedemo.testcases.TC0008_LoginTest_LockedUser.run()'><b>run</b><br>Test class: com.saucedemo.testcases.TC0008_LoginTest_LockedUser<br>Parameters: user2, Epic sadface: Sorry, this user has been locked out.</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.testcases.TC0008_LoginTest_LockedUser@4f67eb2a</td></tr>
+<tr>
+<td title='com.saucedemo.testcases.TC0009_LoginTest_UsernameInPlaceholder.run()'><b>run</b><br>Test class: com.saucedemo.testcases.TC0009_LoginTest_UsernameInPlaceholder<br>Parameters: Username</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.testcases.TC0009_LoginTest_UsernameInPlaceholder@4a668b6e</td></tr>
+<tr>
+<td title='com.saucedemo.testcases.TC0010_LoginTest_PasswordInPlaceholder.run()'><b>run</b><br>Test class: com.saucedemo.testcases.TC0010_LoginTest_PasswordInPlaceholder<br>Parameters: Password</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.testcases.TC0010_LoginTest_PasswordInPlaceholder@5f683daf</td></tr>
+<tr>
+<td title='com.saucedemo.testcases.TC0101_AddAndRemoveSingleProductFromCart.run()'><b>run</b><br>Test class: com.saucedemo.testcases.TC0101_AddAndRemoveSingleProductFromCart<br>Parameters: user1, Fleece Jacket</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.testcases.TC0101_AddAndRemoveSingleProductFromCart@78ffe6dc</td></tr>
+<tr>
+<td title='com.saucedemo.testcases.TC0102_AddAndRemoveMultipleProductsFromCart.run()'><b>run</b><br>Test class: com.saucedemo.testcases.TC0102_AddAndRemoveMultipleProductsFromCart<br>Parameters: user1, Bolt T-Shirt, Bike Light</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.testcases.TC0102_AddAndRemoveMultipleProductsFromCart@8317c52</td></tr>
+<tr>
+<td title='com.saucedemo.testcases.TC0501_OrderCheckout.run()'><b>run</b><br>Test class: com.saucedemo.testcases.TC0501_OrderCheckout<br>Parameters: user1, Bolt T-Shirt, Denis, Levi, 1000241.0</td>
+<td></td>
+<td>4</td>
+<td>com.saucedemo.testcases.TC0501_OrderCheckout@76f2bbc1</td></tr>
+<tr>
+<td title='com.saucedemo.testcases.TC0501_OrderCheckout.run()'><b>run</b><br>Test class: com.saucedemo.testcases.TC0501_OrderCheckout<br>Parameters: user1, Bike Light, Brown, Cage, 1000234.0</td>
+<td></td>
+<td>3</td>
+<td>com.saucedemo.testcases.TC0501_OrderCheckout@76f2bbc1</td></tr>
+<tr>
+<td title='com.saucedemo.testcases.TC0501_OrderCheckout.run()'><b>run</b><br>Test class: com.saucedemo.testcases.TC0501_OrderCheckout<br>Parameters: user1, Onesie, Steve, Nicolas, 3400017.0</td>
+<td></td>
+<td>3</td>
+<td>com.saucedemo.testcases.TC0501_OrderCheckout@76f2bbc1</td></tr>
+<tr>
+<td title='com.saucedemo.testcases.TC0501_OrderCheckout.run()'><b>run</b><br>Test class: com.saucedemo.testcases.TC0501_OrderCheckout<br>Parameters: user1, Backpack, Aina, Freddy, 3403555.0</td>
+<td></td>
+<td>3</td>
+<td>com.saucedemo.testcases.TC0501_OrderCheckout@76f2bbc1</td></tr>
+</table><p>
+</body>
+</html>

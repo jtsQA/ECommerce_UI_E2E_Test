@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SauceDemoSuite">
+              <span class="suite-name border-passed">SauceDemoSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SauceDemoSuite">
+                    <span>C:\Users\jithin_srinivassan\eclipse-workspace\Eclipse_Lrn_Workspace\ECommerce_UI_E2E_Test\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SauceDemoSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SauceDemoSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SauceDemoSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SauceDemoSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SauceDemoSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SauceDemoSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SauceDemoSuite" class="hide-methods passed suite-SauceDemoSuite"> (hide)</a> <!-- hide-methods passed suite-SauceDemoSuite -->
+                      <a href="#" panel-name="suite-SauceDemoSuite" class="show-methods passed suite-SauceDemoSuite"> (show)</a> <!-- show-methods passed suite-SauceDemoSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-SauceDemoSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SauceDemoSuite" title="com.saucedemo.testcases.TC0001_LoginTest_ValidCredential" hash-for-method="run(user3)">run(user3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SauceDemoSuite" title="com.saucedemo.testcases.TC0001_LoginTest_ValidCredential" hash-for-method="run(user4)">run(user4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SauceDemoSuite" title="com.saucedemo.testcases.TC0007_LoginTest_WithoutUsername" hash-for-method="run(, Epic sadface: Username is required)">run(, Epic sadface: Username is required)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SauceDemoSuite" title="com.saucedemo.testcases.TC0002_LoginTest_InvalidPassword" hash-for-method="run(user, Epic sadface: Username and password do not match any user in this service)">run(user, Epic sadface: Username and password do not match any user in this service)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SauceDemoSuite" title="com.saucedemo.testcases.TC0003_LoginTest_InvalidUsername" hash-for-method="run(user1, jsddowm, Epic sadface: Username and password do not match any user in this service)">run(user1, jsddowm, Epic sadface: Username and password do not match any user in this service)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SauceDemoSuite" title="com.saucedemo.testcases.TC0002_LoginTest_InvalidPassword" hash-for-method="run(unknown, Epic sadface: Username and password do not match any user in this service)">run(unknown, Epic sadface: Username and password do not match any user in this service)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SauceDemoSuite" title="com.saucedemo.testcases.TC0101_AddAndRemoveSingleProductFromCart" hash-for-method="run(user1, Fleece Jacket)">run(user1, Fleece Jacket)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SauceDemoSuite" title="com.saucedemo.testcases.TC0501_OrderCheckout" hash-for-method="run(user1, Bike Light, Brown, Cage, 1000234.0)">run(user1, Bike Light, Brown, Cage, 1000234.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SauceDemoSuite" title="com.saucedemo.testcases.TC0005_LoginTest_UnmaskedUsername" hash-for-method="run(user1, text)">run(user1, text)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SauceDemoSuite" title="com.saucedemo.testcases.TC0501_OrderCheckout" hash-for-method="run(user1, Bolt T-Shirt, Denis, Levi, 1000241.0)">run(user1, Bolt T-Shirt, Denis, Levi, 1000241.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SauceDemoSuite" title="com.saucedemo.testcases.TC0501_OrderCheckout" hash-for-method="run(user1, Onesie, Steve, Nicolas, 3400017.0)">run(user1, Onesie, Steve, Nicolas, 3400017.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SauceDemoSuite" title="com.saucedemo.testcases.TC0010_LoginTest_PasswordInPlaceholder" hash-for-method="run(Password)">run(Password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SauceDemoSuite" title="com.saucedemo.testcases.TC0008_LoginTest_LockedUser" hash-for-method="run(user2, Epic sadface: Sorry, this user has been locked out.)">run(user2, Epic sadface: Sorry, this user has been locked out.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SauceDemoSuite" title="com.saucedemo.testcases.TC0501_OrderCheckout" hash-for-method="run(user1, Backpack, Aina, Freddy, 3403555.0)">run(user1, Backpack, Aina, Freddy, 3403555.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SauceDemoSuite" title="com.saucedemo.testcases.TC0009_LoginTest_UsernameInPlaceholder" hash-for-method="run(Username)">run(Username)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SauceDemoSuite" title="com.saucedemo.testcases.TC0006_LoginTest_WithoutPassword" hash-for-method="run(user1, Epic sadface: Password is required)">run(user1, Epic sadface: Password is required)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SauceDemoSuite" title="com.saucedemo.testcases.TC0102_AddAndRemoveMultipleProductsFromCart" hash-for-method="run(user1, Bolt T-Shirt, Bike Light)">run(user1, Bolt T-Shirt, Bike Light)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SauceDemoSuite" title="com.saucedemo.testcases.TC0001_LoginTest_ValidCredential" hash-for-method="run(user1)">run(user1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SauceDemoSuite" title="com.saucedemo.testcases.TC0004_LoginTest_MaskedPassword" hash-for-method="run(password)">run(password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SauceDemoSuite" title="com.saucedemo.testcases.TC0003_LoginTest_InvalidUsername" hash-for-method="run(user1, OR 1=1, Epic sadface: Username and password do not match any user in this service)">run(user1, OR 1=1, Epic sadface: Username and password do not match any user in this service)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SauceDemoSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SauceDemoSuite" class="panel SauceDemoSuite">
+          <div class="suite-SauceDemoSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.testcases.TC0101_AddAndRemoveSingleProductFromCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="run(user1, Fleece Jacket)">
+                  </a> <!-- run(user1, Fleece Jacket) -->
+                  <span class="method-name">run</span>
+                  <span class="parameters">(user1, Fleece Jacket)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemoSuite-class-passed -->
+          <div class="suite-SauceDemoSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.testcases.TC0501_OrderCheckout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="run(user1, Bike Light, Brown, Cage, 1000234.0)">
+                  </a> <!-- run(user1, Bike Light, Brown, Cage, 1000234.0) -->
+                  <span class="method-name">run</span>
+                  <span class="parameters">(user1, Bike Light, Brown, Cage, 1000234.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="run(user1, Bolt T-Shirt, Denis, Levi, 1000241.0)">
+                  </a> <!-- run(user1, Bolt T-Shirt, Denis, Levi, 1000241.0) -->
+                  <span class="method-name">run</span>
+                  <span class="parameters">(user1, Bolt T-Shirt, Denis, Levi, 1000241.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="run(user1, Onesie, Steve, Nicolas, 3400017.0)">
+                  </a> <!-- run(user1, Onesie, Steve, Nicolas, 3400017.0) -->
+                  <span class="method-name">run</span>
+                  <span class="parameters">(user1, Onesie, Steve, Nicolas, 3400017.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="run(user1, Backpack, Aina, Freddy, 3403555.0)">
+                  </a> <!-- run(user1, Backpack, Aina, Freddy, 3403555.0) -->
+                  <span class="method-name">run</span>
+                  <span class="parameters">(user1, Backpack, Aina, Freddy, 3403555.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemoSuite-class-passed -->
+          <div class="suite-SauceDemoSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.testcases.TC0010_LoginTest_PasswordInPlaceholder</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="run(Password)">
+                  </a> <!-- run(Password) -->
+                  <span class="method-name">run</span>
+                  <span class="parameters">(Password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemoSuite-class-passed -->
+          <div class="suite-SauceDemoSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.testcases.TC0004_LoginTest_MaskedPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="run(password)">
+                  </a> <!-- run(password) -->
+                  <span class="method-name">run</span>
+                  <span class="parameters">(password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemoSuite-class-passed -->
+          <div class="suite-SauceDemoSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.testcases.TC0007_LoginTest_WithoutUsername</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="run(, Epic sadface: Username is required)">
+                  </a> <!-- run(, Epic sadface: Username is required) -->
+                  <span class="method-name">run</span>
+                  <span class="parameters">(, Epic sadface: Username is required)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemoSuite-class-passed -->
+          <div class="suite-SauceDemoSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.testcases.TC0008_LoginTest_LockedUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="run(user2, Epic sadface: Sorry, this user has been locked out.)">
+                  </a> <!-- run(user2, Epic sadface: Sorry, this user has been locked out.) -->
+                  <span class="method-name">run</span>
+                  <span class="parameters">(user2, Epic sadface: Sorry, this user has been locked out.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemoSuite-class-passed -->
+          <div class="suite-SauceDemoSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.testcases.TC0001_LoginTest_ValidCredential</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="run(user3)">
+                  </a> <!-- run(user3) -->
+                  <span class="method-name">run</span>
+                  <span class="parameters">(user3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="run(user4)">
+                  </a> <!-- run(user4) -->
+                  <span class="method-name">run</span>
+                  <span class="parameters">(user4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="run(user1)">
+                  </a> <!-- run(user1) -->
+                  <span class="method-name">run</span>
+                  <span class="parameters">(user1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemoSuite-class-passed -->
+          <div class="suite-SauceDemoSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.testcases.TC0102_AddAndRemoveMultipleProductsFromCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="run(user1, Bolt T-Shirt, Bike Light)">
+                  </a> <!-- run(user1, Bolt T-Shirt, Bike Light) -->
+                  <span class="method-name">run</span>
+                  <span class="parameters">(user1, Bolt T-Shirt, Bike Light)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemoSuite-class-passed -->
+          <div class="suite-SauceDemoSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.testcases.TC0002_LoginTest_InvalidPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="run(user, Epic sadface: Username and password do not match any user in this service)">
+                  </a> <!-- run(user, Epic sadface: Username and password do not match any user in this service) -->
+                  <span class="method-name">run</span>
+                  <span class="parameters">(user, Epic sadface: Username and password do not match any user in this service)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="run(unknown, Epic sadface: Username and password do not match any user in this service)">
+                  </a> <!-- run(unknown, Epic sadface: Username and password do not match any user in this service) -->
+                  <span class="method-name">run</span>
+                  <span class="parameters">(unknown, Epic sadface: Username and password do not match any user in this service)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemoSuite-class-passed -->
+          <div class="suite-SauceDemoSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.testcases.TC0009_LoginTest_UsernameInPlaceholder</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="run(Username)">
+                  </a> <!-- run(Username) -->
+                  <span class="method-name">run</span>
+                  <span class="parameters">(Username)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemoSuite-class-passed -->
+          <div class="suite-SauceDemoSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.testcases.TC0006_LoginTest_WithoutPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="run(user1, Epic sadface: Password is required)">
+                  </a> <!-- run(user1, Epic sadface: Password is required) -->
+                  <span class="method-name">run</span>
+                  <span class="parameters">(user1, Epic sadface: Password is required)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemoSuite-class-passed -->
+          <div class="suite-SauceDemoSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.testcases.TC0005_LoginTest_UnmaskedUsername</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="run(user1, text)">
+                  </a> <!-- run(user1, text) -->
+                  <span class="method-name">run</span>
+                  <span class="parameters">(user1, text)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemoSuite-class-passed -->
+          <div class="suite-SauceDemoSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.testcases.TC0003_LoginTest_InvalidUsername</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="run(user1, jsddowm, Epic sadface: Username and password do not match any user in this service)">
+                  </a> <!-- run(user1, jsddowm, Epic sadface: Username and password do not match any user in this service) -->
+                  <span class="method-name">run</span>
+                  <span class="parameters">(user1, jsddowm, Epic sadface: Username and password do not match any user in this service)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="run(user1, OR 1=1, Epic sadface: Username and password do not match any user in this service)">
+                  </a> <!-- run(user1, OR 1=1, Epic sadface: Username and password do not match any user in this service) -->
+                  <span class="method-name">run</span>
+                  <span class="parameters">(user1, OR 1=1, Epic sadface: Username and password do not match any user in this service)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemoSuite-class-passed -->
+        </div> <!-- panel SauceDemoSuite -->
+        <div panel-name="test-xml-SauceDemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\jithin_srinivassan\eclipse-workspace\Eclipse_Lrn_Workspace\ECommerce_UI_E2E_Test\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;SauceDemoSuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.saucedemo.listener.AnnotationTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;SauceDemoTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.saucedemo.testcases.TC0001_LoginTest_ValidCredential&quot;/&gt;
+      &lt;class name=&quot;com.saucedemo.testcases.TC0002_LoginTest_InvalidPassword&quot;/&gt;
+      &lt;class name=&quot;com.saucedemo.testcases.TC0003_LoginTest_InvalidUsername&quot;/&gt;
+      &lt;class name=&quot;com.saucedemo.testcases.TC0004_LoginTest_MaskedPassword&quot;/&gt;
+      &lt;class name=&quot;com.saucedemo.testcases.TC0005_LoginTest_UnmaskedUsername&quot;/&gt;
+      &lt;class name=&quot;com.saucedemo.testcases.TC0006_LoginTest_WithoutPassword&quot;/&gt;
+      &lt;class name=&quot;com.saucedemo.testcases.TC0007_LoginTest_WithoutUsername&quot;/&gt;
+      &lt;class name=&quot;com.saucedemo.testcases.TC0008_LoginTest_LockedUser&quot;/&gt;
+      &lt;class name=&quot;com.saucedemo.testcases.TC0009_LoginTest_UsernameInPlaceholder&quot;/&gt;
+      &lt;class name=&quot;com.saucedemo.testcases.TC0010_LoginTest_PasswordInPlaceholder&quot;/&gt;
+      &lt;class name=&quot;com.saucedemo.testcases.TC0101_AddAndRemoveSingleProductFromCart&quot;/&gt;
+      &lt;class name=&quot;com.saucedemo.testcases.TC0102_AddAndRemoveMultipleProductsFromCart&quot;/&gt;
+      &lt;class name=&quot;com.saucedemo.testcases.TC0501_OrderCheckout&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SauceDemoTest --&gt;
+&lt;/suite&gt; &lt;!-- SauceDemoSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SauceDemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SauceDemoSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SauceDemoTest (13 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SauceDemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SauceDemoSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SauceDemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SauceDemoSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SauceDemoSuite');
+function tableData_SauceDemoSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'run')
+data.setCell(0, 2, 'com.saucedemo.testcases.TC0001_LoginTest_ValidCredential')
+data.setCell(0, 3, 6279);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'run')
+data.setCell(1, 2, 'com.saucedemo.testcases.TC0501_OrderCheckout')
+data.setCell(1, 3, 4471);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'run')
+data.setCell(2, 2, 'com.saucedemo.testcases.TC0501_OrderCheckout')
+data.setCell(2, 3, 3336);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'run')
+data.setCell(3, 2, 'com.saucedemo.testcases.TC0501_OrderCheckout')
+data.setCell(3, 3, 3299);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'run')
+data.setCell(4, 2, 'com.saucedemo.testcases.TC0501_OrderCheckout')
+data.setCell(4, 3, 3188);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'run')
+data.setCell(5, 2, 'com.saucedemo.testcases.TC0102_AddAndRemoveMultipleProductsFromCart')
+data.setCell(5, 3, 1728);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'run')
+data.setCell(6, 2, 'com.saucedemo.testcases.TC0001_LoginTest_ValidCredential')
+data.setCell(6, 3, 1563);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'run')
+data.setCell(7, 2, 'com.saucedemo.testcases.TC0001_LoginTest_ValidCredential')
+data.setCell(7, 3, 1180);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'run')
+data.setCell(8, 2, 'com.saucedemo.testcases.TC0101_AddAndRemoveSingleProductFromCart')
+data.setCell(8, 3, 1065);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'run')
+data.setCell(9, 2, 'com.saucedemo.testcases.TC0008_LoginTest_LockedUser')
+data.setCell(9, 3, 798);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'run')
+data.setCell(10, 2, 'com.saucedemo.testcases.TC0007_LoginTest_WithoutUsername')
+data.setCell(10, 3, 588);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'run')
+data.setCell(11, 2, 'com.saucedemo.testcases.TC0003_LoginTest_InvalidUsername')
+data.setCell(11, 3, 488);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'run')
+data.setCell(12, 2, 'com.saucedemo.testcases.TC0002_LoginTest_InvalidPassword')
+data.setCell(12, 3, 485);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'run')
+data.setCell(13, 2, 'com.saucedemo.testcases.TC0006_LoginTest_WithoutPassword')
+data.setCell(13, 3, 419);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'run')
+data.setCell(14, 2, 'com.saucedemo.testcases.TC0003_LoginTest_InvalidUsername')
+data.setCell(14, 3, 402);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'run')
+data.setCell(15, 2, 'com.saucedemo.testcases.TC0002_LoginTest_InvalidPassword')
+data.setCell(15, 3, 319);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'run')
+data.setCell(16, 2, 'com.saucedemo.testcases.TC0005_LoginTest_UnmaskedUsername')
+data.setCell(16, 3, 297);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'run')
+data.setCell(17, 2, 'com.saucedemo.testcases.TC0004_LoginTest_MaskedPassword')
+data.setCell(17, 3, 294);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'run')
+data.setCell(18, 2, 'com.saucedemo.testcases.TC0010_LoginTest_PasswordInPlaceholder')
+data.setCell(18, 3, 185);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'run')
+data.setCell(19, 2, 'com.saucedemo.testcases.TC0009_LoginTest_UsernameInPlaceholder')
+data.setCell(19, 3, 170);
+window.suiteTableData['SauceDemoSuite']= { tableData: data, tableDiv: 'times-div-SauceDemoSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <div id="times-div-SauceDemoSuite">
+              </div> <!-- times-div-SauceDemoSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SauceDemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SauceDemoSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SauceDemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SauceDemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.testcases.TC0001_LoginTest_ValidCredential</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">run(user1)</span>
+                <span class="method-start">45579 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">run(user3)</span>
+                <span class="method-start">47146 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">run(user4)</span>
+                <span class="method-start">48327 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">finish</span>
+                <span class="method-start">54607 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.testcases.TC0002_LoginTest_InvalidPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize(chrome)</span>
+                <span class="method-start">56364 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">run(user, Epic sadface: Username and password do not match any user in this service)</span>
+                <span class="method-start">67911 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">run(unknown, Epic sadface: Username and password do not match any user in this service)</span>
+                <span class="method-start">68398 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">finish</span>
+                <span class="method-start">68718 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.testcases.TC0003_LoginTest_InvalidUsername</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize(chrome)</span>
+                <span class="method-start">70108 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">run(user1, jsddowm, Epic sadface: Username and password do not match any user in this service)</span>
+                <span class="method-start">74930 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">run(user1, OR 1=1, Epic sadface: Username and password do not match any user in this service)</span>
+                <span class="method-start">75419 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">finish</span>
+                <span class="method-start">75822 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.testcases.TC0004_LoginTest_MaskedPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize(chrome)</span>
+                <span class="method-start">77482 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">run(password)</span>
+                <span class="method-start">84997 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">finish</span>
+                <span class="method-start">85293 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.testcases.TC0005_LoginTest_UnmaskedUsername</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize(chrome)</span>
+                <span class="method-start">86993 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">run(user1, text)</span>
+                <span class="method-start">93859 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">finish</span>
+                <span class="method-start">94157 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.testcases.TC0006_LoginTest_WithoutPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize(chrome)</span>
+                <span class="method-start">96062 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">run(user1, Epic sadface: Password is required)</span>
+                <span class="method-start">103055 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">finish</span>
+                <span class="method-start">103475 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.testcases.TC0007_LoginTest_WithoutUsername</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize(chrome)</span>
+                <span class="method-start">105130 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">run(, Epic sadface: Username is required)</span>
+                <span class="method-start">113878 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">finish</span>
+                <span class="method-start">114468 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.testcases.TC0008_LoginTest_LockedUser</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize(chrome)</span>
+                <span class="method-start">116523 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">run(user2, Epic sadface: Sorry, this user has been locked out.)</span>
+                <span class="method-start">124315 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">finish</span>
+                <span class="method-start">125115 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.testcases.TC0009_LoginTest_UsernameInPlaceholder</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize(chrome)</span>
+                <span class="method-start">127420 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">run(Username)</span>
+                <span class="method-start">136519 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">finish</span>
+                <span class="method-start">136689 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.testcases.TC0010_LoginTest_PasswordInPlaceholder</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize(chrome)</span>
+                <span class="method-start">138803 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">run(Password)</span>
+                <span class="method-start">147773 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">finish</span>
+                <span class="method-start">147960 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.testcases.TC0101_AddAndRemoveSingleProductFromCart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize(chrome)</span>
+                <span class="method-start">149789 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">run(user1, Fleece Jacket)</span>
+                <span class="method-start">156738 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">finish</span>
+                <span class="method-start">157804 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.testcases.TC0102_AddAndRemoveMultipleProductsFromCart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize(chrome)</span>
+                <span class="method-start">160109 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">run(user1, Bolt T-Shirt, Bike Light)</span>
+                <span class="method-start">166969 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">finish</span>
+                <span class="method-start">168698 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.testcases.TC0501_OrderCheckout</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize(chrome)</span>
+                <span class="method-start">170827 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">run(user1, Bolt T-Shirt, Denis, Levi, 1000241.0)</span>
+                <span class="method-start">178073 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">run(user1, Bike Light, Brown, Cage, 1000234.0)</span>
+                <span class="method-start">182546 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">run(user1, Onesie, Steve, Nicolas, 3400017.0)</span>
+                <span class="method-start">185884 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">run(user1, Backpack, Aina, Freddy, 3403555.0)</span>
+                <span class="method-start">189184 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">finish</span>
+                <span class="method-start">192373 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
